@@ -3,3 +3,7 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: mdwithrow's project page
 description: various projects for publishing/sharing
+
+# Custom Stylesheet Injection
+include:
+  - assets/css/style.css
