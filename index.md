@@ -2,20 +2,7 @@
 layout: default
 ---
 
-
-<style>
-.horizontal-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.horizontal-list li {
-    margin-right: 15px;
-}
-</style>
+<link rel="stylesheet" href="/assets/css/style.scss">
 
 ## Categories
 
