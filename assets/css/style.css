@@ -1,11 +1,14 @@
+/* Keep Cayman theme and just add custom styles */
 .horizontal-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .horizontal-list li {
-  margin-right: 15px;
+    margin-right: 15px;
 }
+
+/* Avoid overriding global Cayman styles */
