@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<style>
+@import url('/assets/css/style.css');
+</style>
+
 ## Categories
 
 <ul class="horizontal-list">
