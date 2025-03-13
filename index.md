@@ -2,7 +2,20 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<style>
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horizontal-list li {
+    margin-right: 15px;
+}
+</style>
 
 ## Categories
 
