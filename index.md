@@ -4,12 +4,12 @@ layout: default
 
 ## Categories
 
-<ul>
-{% for tag in site.tags %}
+<ul class="horizontal-list">
+{% for category in site.categories %}
   <li>
-    <a href="{{ site.baseurl }}/tags/{{ tag[0] | slugify }}/">
-      {{ tag[0] }}
-    </a> ({{ tag[1].size }})
+    <a href="{{ site.baseurl }}/site.categories/{{ category[0] | slugify }}/">
+      {{ category[0] }}
+    </a> ({{ category[1].size }})
   </li>
 {% endfor %}
 </ul>
