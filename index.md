@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Project Summarys
 ---
 
 ## Categories
